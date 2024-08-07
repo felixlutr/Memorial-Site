@@ -25,27 +25,31 @@ export default function Navbar() {
             <div className="hidden sm:flex sm:items-center sm:justify-end sm:flex-1 right-0">
               <div className="flex space-x-6 flex-row">
                 <a
-                  href="#"
+                  href="/"
                   className="rounded-md px-3 py-2 text-sm font-medium text-white hover:bg-white hover:text-gray-950 hover:font-bold"
                   aria-current="page"
+                  target="_self"
                 >
                   עמוד הבית
                 </a>
                 <a
-                  href="#"
+                  href="/api"
                   className="rounded-md px-3 py-2 text-sm font-medium text-white hover:bg-white hover:text-gray-950 hover:font-bold"
+                  target="_self"
                 >
                   תמונות
                 </a>
                 <a
                   href="#"
                   className="rounded-md px-3 py-2 text-sm font-medium text-white hover:bg-white hover:text-gray-950 hover:font-bold"
+                  target="_self"
                 >
                   פניני חוכמה
                 </a>
                 <a
                   href="#"
                   className="rounded-md px-3 py-2 text-sm font-medium text-white hover:bg-white hover:text-gray-950 hover:font-bold"
+                  target="_self"
                 >
                   ביוגרפיה
                 </a>
@@ -96,29 +100,33 @@ export default function Navbar() {
         {/* Mobile Menu */}
         {isOpen && (
           <div className="sm:hidden" id="mobile-menu">
-            <div className="flex flex-col items-end space-y-1 px-2 pb-3 pt-2">
+            <div className="flex flex-col items-end space-y-1 px-28 pb-3 pt-2">
               <a
-                href="#"
-                className="block rounded-md bg-gray-900 px-3 py-2 text-base font-medium text-white"
+                href="/"
+                className="block rounded-md px-3 py-2 text-base font-medium text-white"
                 aria-current="page"
+                target="_self"
               >
                 עמוד הבית
               </a>
               <a
-                href="#"
+                href="/files"
                 className="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white"
+                target="_self"
               >
                 תמונות
               </a>
               <a
                 href="#"
                 className="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white"
+                target="_self"
               >
                 פניני חוכמה
               </a>
               <a
                 href="#"
                 className="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white"
+                target="_self"
               >
                 ביוגרפיה
               </a>

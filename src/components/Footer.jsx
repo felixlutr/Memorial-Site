@@ -32,7 +32,7 @@ export default function Footer() {
         </div>
         <a
           href="#"
-          className="absolute bottom-9 right-20 flex items-center justify-center"
+          className="absolute xs:right-0 xs:px-1 bottom-9 lg:right-20 flex items-center justify-center"
         >
           <FaArrowAltCircleUp className="text-orange-600 text-4xl" />
         </a>
